@@ -1,0 +1,138 @@
+/* Website template by freewebsitetemplates.com */
+@font-face {
+	font-family: 'PTSerif-Caption';
+	src: url('../fonts/PT_Serif-Caption-Web-Regular.eot');
+	src: local('☺'), url('../fonts/PT_Serif-Caption-Web-Regular.woff') format('woff'), url('../fonts/PT_Serif-Caption-Web-Regular.ttf') format('truetype'), url('../fonts/PT_Serif-Caption-Web-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.index {
+    margin-left:8px !important;
+    font-size:20px;
+       color:#d9d9d7;
+       background:#002366;
+}
+
+.info{
+	font-size: 50px;	
+}
+
+.secondline{
+	margin-top:36px;
+	font-size: 50px;
+	margin-left:50px;
+}
+
+.thirdline{
+	margin-top:25px;
+	font-size: 50px;
+	margin-left:90px;
+	margin-bottom:50px;
+}
+
+.directions{
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	background-color: #002366;
+}
+
+/*rsvp css*/
+
+.div-table{
+  display:table;         
+  width: 921px;
+  margin-right:auto;
+  margin-left:auto;    
+  margin-top:15px;     
+  background-color:#eee;         
+  border:1px solid  #666666;         
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+ padding:2px;
+ font-size:20px;
+	font-style:italic;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.div-table-row{
+  display:table-row;
+  width:auto;
+  clear:both;
+  padding:5px;
+}
+.div-table_i{
+  display:table;         
+  width:auto;         
+     background-color:white;
+  border:1px solid  #337ab7;         
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+ padding:2px;
+ font-size:20px;
+	font-style:italic;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-left:3%;
+}
+
+
+@media screen and (min-width: 1800px) {
+  .div-table_i {
+      	margin-left:7%;
+    }
+}
+
+.div-table-row_i{
+  display:table-row;
+  width:auto;
+  clear:both;
+  padding:5px;
+}
+.div-table-col{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:150px;         
+  
+   padding:2px;
+     
+}
+.div-table-col1{
+  float:right;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:150px;  
+   
+
+  
+}
+.div-table-col2{
+  float:right;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:900px; 
+  margin-left:8px;        
+ 
+}
+
+.div-table-col_i{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:270px; 
+  margin-left:-5px;        
+ 
+}
+
+.div-table-cell{
+	padding:2px;
+}
+.online
+{
+	float:right;
+	width:100%;		
+	
+}
+/* rsvp css */
+.text_color
+{
+	color:#002366;
+}
+
+div .spacer 
+{
+	height:30px;
